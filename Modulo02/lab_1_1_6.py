@@ -1,5 +1,5 @@
 '''
-Descripción: Programa muy facil de la función Print
+Descripción: Programa muy fácil de la función Print
 Autor: Daniel Almendariz
 Fecha: 20 sep 2022
 '''

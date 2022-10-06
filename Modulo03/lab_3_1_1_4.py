@@ -1,7 +1,7 @@
 '''
-Descripción: uso de salto de linea
+Descripción: false,true
 Autor: Daniel Almendariz
-Fecha: 20 sep 2022
+Fecha: 27 sep 2022
 '''
 
 n = int(input ('Ingresa un valor entero '))

@@ -24,3 +24,4 @@ while number != secret_number:
 
     number = int(input("Ingresa un numero nuevamente: "))
 print("¡Bien hecho, muggle! Eres libre ahora")
+

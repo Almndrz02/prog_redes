@@ -1,5 +1,5 @@
 '''
-Descripción: u1_prob4.py
+Descripción:  programa que almacene las asignaturas de un curso
 Autor: Daniel Almendariz
 Fecha: 11 oct 2022
 '''

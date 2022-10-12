@@ -3,7 +3,7 @@ Descripción: Problema 3 Secuencia de números enteros
 Autor: Daniel Almendariz
 Fecha: 06 oct 2022
 '''
-
-n = int(input("Introduce un número entero positivo: "))
-for i in range(n, -1, -1):
+# ingresar un numero y el ciclo realizara una cuenta regresiva 
+a = int(input("Ingresa un número: "))
+for i in range(a, -1, -1):
     print(i, end=", ")

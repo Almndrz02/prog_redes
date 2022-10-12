@@ -25,14 +25,14 @@ def daysInMonth(year, month):
 
 def dayOfYear(year, month, day):
 	days = 0
-	for m in range(1, month):
+	for m in range(1, month):   # esta tomando en cnuenta los dias que tiene un mes 
 		md = daysInMonth(year, m)
 		if md == None:
-			return None
+			return None # verifica el dia para poder enviarlo a la pantalla
 		days += md
 	md = daysInMonth(year, month)
 	if day >= 1 and day <= md:
-		return days + day
+		return days + day    # suma todos los dias y los envia a imprimir a pantalla 
 	else:
 		return None
 

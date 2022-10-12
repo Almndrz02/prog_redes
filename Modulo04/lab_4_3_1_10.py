@@ -9,7 +9,7 @@ def l100kmtompg(litros):
     millas = 100 * 1000 / 1609.344
     return millas / galones
     
-#se calcula cuaas seran las millas para poder imprimir cuntas millas por galon se necesitan
+#se calcula cuales seran las millas para poder imprimir cuntas millas por galon se necesitan
 def mpgtol100km(millas):
     km100 = millas * 1609.344 / 1000 / 100
     litros = 3.785411784

@@ -3,7 +3,7 @@ Descripción: Problema 1 Raíces de la ecuación cuadrática
 Autor: Daniel Almendariz
 Fecha: 06 oct 2022
 '''
-# se daran valores si estosvalores tienes raices se iprimira el mensaje "tiene raices imaginarias"
+# se daran valores si estos valores tienes raices se iprimira el mensaje "tiene raices imaginarias"
 import math
 a=float(input("a= "))
 b=float(input("b= "))

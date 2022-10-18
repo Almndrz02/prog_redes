@@ -25,15 +25,18 @@ capitals = {
            }
 
 # Print the list and dictionary
-print( '\n', country )
-print( '\n', capitals )
+print("Countrys: ")
+print('\n'.join(country))
+
+print("Capitals: ")
+print('\n'.join(capitals) )
 """
 What response did you get?
 Why did the list and dictionary contents not print?
 Fix the code and run the script again.
 """
 
-print( "South Africa: ",capitals["South Africa"] )
+print('\n'.join(capitals["South Africa"]) )
 """
 Why did you get an error for the 2nd capital of South Africa?
 Hint: Check the syntax for the index value.

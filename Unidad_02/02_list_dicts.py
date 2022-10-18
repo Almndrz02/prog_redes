@@ -36,7 +36,7 @@ Why did the list and dictionary contents not print?
 Fix the code and run the script again.
 """
 
-print('\n'.join(capitals["South Africa"]) )
+print( "South Africa: ",'\n'.join(capitals["South Africa"]) )
 """
 Why did you get an error for the 2nd capital of South Africa?
 Hint: Check the syntax for the index value.

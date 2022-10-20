@@ -1,14 +1,18 @@
 file = open("devices.txt", "r")
 
-line = input("Que dispositvo necesitas? ")
+dispositivo = input("Que dispositvo necesitas? ")
+fal = False
+
 
 for line in file:
     line = line.strip()
     
-    if "Switch" in line: 
+    if dispositivo in line and len(dispositivo)>3:
+        fal = True
         print(line)
         
-    else:
-        print("Dispositivo no encotrado :(") 
+if fal == False:
+    print("Dispositivo no encontrado")
+        
 
 file.close()
